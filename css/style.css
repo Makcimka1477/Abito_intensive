@@ -1,0 +1,110 @@
+/* #0a143a черный
+#256eeb синий
+#ffffff белый
+
+roboto 400
+roboto 700 */
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 1440px;
+    background-color: #fff;
+    color: #0a143a;
+}
+
+.header {
+    max-width: 1146px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    background: #fff;
+    margin: auto;
+    max-width: 1146px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logo {
+    margin-top: 40px;
+    float: left;
+    height: 27px;
+    margin-right: 22px;
+}
+
+.menu {
+    height: 16px;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 7px 0;
+    float: left;
+    margin-top: 40px;
+}
+
+.menu-item {
+    margin-right: 14px;
+    line-height: 17px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item-a {
+    color: inherit;
+    text-decoration: 0;
+}
+
+.buttons {
+    margin-top: 30px;
+    float: right;
+    text-decoration: none;
+}
+
+.buttons a {
+    float: right;
+    text-decoration: none;
+}
+
+.button-link {
+    background: #fff;
+    color: inherit;
+    border: none;
+}
+.button-primary {
+    color: #fff;
+    background: #256EEB;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.search-panel {
+    height: 50px;
+    background-color: #256EEB;
+    display: flex;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button {
+    background: #256eeb;
+    border: none;
+}
