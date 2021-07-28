@@ -180,10 +180,6 @@ body {
 
 
 /* Боковая панель */
-aside {
-    margin: 0;
-    padding: 0;    
-}
 
 .aside-menu {
     position: relative;
@@ -211,17 +207,13 @@ aside {
 
 }
 
+/* Footer */
 .copyright {
-    margin-top: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-    color: #C4C4C4;
     border-top: 3px solid #e5e5e5;
 }
 
-.info {
+.info a {
+    padding-top: 50px;
     color: #0A143A;
     font-family: Roboto;
     font-size: 12px;
@@ -230,4 +222,21 @@ aside {
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
+    text-decoration: none;
+}
+
+.copyright p,
+.copyright a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+
+.copyright p:nth-child(1) a {
+    text-decoration: none;
 }
